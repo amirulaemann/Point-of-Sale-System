@@ -36,6 +36,10 @@ class Item {
   double getTotal() {
     return price * quantity;
   }
+
+  String toString() {
+    return '{ ${this.name}, ${this.price}, ${this.stock} }';
+  }
 }
 
 bool inventoryStockCheck(List itemList, int index) {
@@ -55,12 +59,16 @@ bool inventoryStockCheck(List itemList, int index) {
   return status;
 }
 
-void recalculateStock(List itemList, int index, int quantity) {
+void recalculateStock(List itemList) {
   //to update the quantity of stock after the end of transaction
-  int current = itemList[index].getStock();
-  int after = current - quantity;
+  int totalProduct = itemList.length;
+  for (var i = 0; i < totalProduct; i++) {
+    int current = itemList[i].getStock();
+    int quantity = itemList[i].getQuantity();
+    int after = current - quantity;
 
-  itemList[index].setStock(after);
+    itemList[i].setStock(after);
+  }
 }
 
 void start(List itemList) {
@@ -222,4 +230,5 @@ void main() {
   start(itemList);
   chooseItem(itemList);
   receipt(itemList);
+  recalculateStock(itemList);
 }

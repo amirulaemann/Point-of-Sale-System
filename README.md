@@ -10,11 +10,11 @@
  5. Ahmad Irfaan Helmi Bin Jaffar 1828459
 
 **Assigned Task**
- 1. **Interface** (Ahmad Irfaan Helmi Bin Jaffar 1828459)
- 2. **Storage** (Herda Binti Borhan 1821690)
- 3. **Details** of the Product (Muhammad Naim Imran bin Mohd Nizar 1917173)
- 4. **Receipt** (Muhammad Amirul Aiman Bin Yusoff 1826557)
- 5. **Compilation of Code & Video Presentation** (Mohammad Aiman bin Mohamad Ares 1817363)
+ 1. **Storage** (Mohammad Aiman bin Mohamad Ares 1817363)
+ 2. **Details** of the Product (Muhammad Naim Imran bin Mohd Nizar 1917173)
+ 3. **Interface** (Ahmad Irfaan Helmi Bin Jaffar 1828459)
+ 4. **Inventory Stock** (Herda Binti Borhan 1821690)
+ 5. **Receipt** (Muhammad Amirul Aiman Bin Yusoff 1826557)
 
 **Brief Description**
 

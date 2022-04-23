@@ -17,3 +17,5 @@
  5. **Compilation of Code & Video Presentation** (Mohammad Aiman bin Mohamad Ares 1817363)
 
 **Brief Description**
+
+The purpose of the case study is to assess problem-solving abilities and teamwork in the context of the provided case. The study case required the development of the following system in the **DART programming language**. A Point of Sale System is the theme (PoS System). A virtual vending machine is what this system is. Users will select the snack they wish to purchase from a list of products available in the system. The system will display the product's pricing and availability. The system will determine the cost when the consumers have chosen which product they want to purchase. To pay for the product, users must enter a dollar amount. The system will calculate the change and present it to the users in the form of a virtual receipt.
